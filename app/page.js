@@ -20,6 +20,36 @@ export default function Home() {
           <Typography variant="h6" sx={{ flexGrow: 1, color: '#FFFFFF' }}>
             StudyCards AI
           </Typography>
+          <Button
+                    variant="contained"
+                    color="primary"
+                    href="/"
+                    sx={{
+                        right: 40,
+                        bgcolor: '#FFFFFF',
+                        color: '#000000',
+                        fontWeight: 'bold',
+                        padding: '10px 20px',
+                        '&:hover': { bgcolor: '#grey' }
+                    }}
+                >
+                    Home
+                </Button>
+                <Button
+                    variant="contained"
+                    color="primary"
+                    href="/flashcards"
+                    sx={{
+                        right: 20,
+                        bgcolor: '#FFFFFF',
+                        color: '#000000',
+                        fontWeight: 'bold',
+                        padding: '10px 20px',
+                        '&:hover': { bgcolor: '#grey' }
+                    }}
+                >
+                    Your Flashcards
+                </Button>
           <SignedOut>
             <Button sx={{ color: '#FFFFFF' }} href="/sign-in">
               Login
